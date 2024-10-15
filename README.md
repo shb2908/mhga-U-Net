@@ -5,6 +5,9 @@ This research has been accepted at the ***International Conference on Neural Inf
 ## Abstract
 Accurate segmentation of nuclei in histopathology images is critical for understanding tissue morphology and aiding in disease diagnosis, particularly cancer. However, this task is challenging due to the high variability in staining and diverse morphological features. In this study, we propose a novel approach that integrates a graph-based attention mechanism into the U-Net architecture. Our method utilizes astate-of-the-art encoder backbone and introduces a Pairwise Node Similarity Attention Module (PNSAM), which computes the similarity between feature channels using a kernel function that inherently applies a dot product to capture spatial information. This module enhances the relationships between local and non-local feature vectors within a feature map obtained from multiple encoder layers, forming a graph attention map. Additionally, we incorporate a channel pruning mechanism that leverages predefined statistical knowledge to select important individual channels for graph attention map creation. The resulting graph attention map enhances encoder features for skip connections. Furthermore, we combine activated features from multiple trainable PNSAM heads to generate a more diverse and robust feature map. We evaluated our novel architecture on three widely recognized datasets: Monuseg, TNBC, and CryoNuSeg. 
 
+![Architecrure!](assests/main-diagram.png)
+
+
 ## Project Structure
 
 This project is organized into several modules to enhance readability and maintainability. Each module corresponds to a specific aspect of the project, such as data processing, model architecture, custom layers, loss functions, metrics, and training scripts. Below is an overview of each module and its purpose:
