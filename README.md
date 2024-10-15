@@ -1,4 +1,8 @@
-# Multi-Headed-Graph-based-Attention-aided-U-Net
+# Multi-Headed Graph-based Attention-aided U-Net for Nuclei Segmentation
+
+This research has been accepted at the ***International Conference on Neural Information Processing (ICONIP), 2024***
+
+## Abstract
 Accurate segmentation of nuclei in histopathology images is
 critical for understanding tissue morphology and aiding in disease diag-
 nosis, particularly cancer. However, this task is challenging due to the
